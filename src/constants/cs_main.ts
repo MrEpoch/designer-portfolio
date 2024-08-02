@@ -68,5 +68,77 @@ export const constHomePage = {
     ],
   },
   designs: {
-  }
+    tabs: {
+      web: [
+        {
+          added: new Date(),
+          title: "Webové stránka",
+          para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+          linkText: "Zjistit viče",
+          link: "/design/web-design",
+          previewImg: "/assets/InstagramPlakat.png",
+        },
+        {
+          added: new Date(),
+          title: "Webové stránka",
+          para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+          linkText: "Zjistit viče",
+          link: "/design/web-design",
+          previewImg: "/assets/InstagramPlakat.png",
+        },
+        {
+          added: new Date(),
+          title: "Webové stránka",
+          para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+          linkText: "Zjistit viče",
+          link: "/design/web-design",
+          previewImg: "/assets/InstagramPlakat.png",
+        },
+        {
+          added: new Date(),
+          title: "Webové stránka",
+          para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+          linkText: "Zjistit viče",
+          link: "/design/web-design",
+          previewImg: "/assets/InstagramPlakat.png",
+        },
+        {
+          added: new Date(),
+          title: "Webové stránka",
+          para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+          linkText: "Zjistit viče",
+          link: "/design/web-design",
+          previewImg: "/assets/InstagramPlakat.png",
+        },
+        {
+          added: new Date(),
+          title: "Webové stránka",
+          para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+          linkText: "Zjistit viče",
+          link: "/design/web-design",
+          previewImg: "/assets/InstagramPlakat.png",
+        },
+      ],
+      plakat: [
+        {
+          added: new Date(),
+          title: "Webové stránka",
+          para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+          linkText: "Zjistit viče",
+          link: "/design/web-design",
+          previewImg: "/assets/InstagramPlakat.png",
+        },
+      ],
+      logo: [
+        {
+          added: new Date(),
+          title: "Webové stránka",
+          para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+          linkText: "Zjistit viče",
+          link: "/design/web-design",
+          previewImg: "/assets/InstagramPlakat.png",
+        },
+      ],
+    },
+  },
 };

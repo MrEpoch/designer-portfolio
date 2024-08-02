@@ -9,7 +9,7 @@ import { Button } from "../ui/button";
 export default function Header() {
   return (
     <header className={`p-4 fixed top-6 z-50 right-0 w-full`}>
-      <div className="rounded-full max-w-container shadow-md bg-white -main-background-300 w-full py-4 flex items-center">
+      <div className="rounded-full shadow-md bg-white max-w-container -main-background-300 w-full py-4 flex items-center">
         <Link
           className="inline-flex w-fit flex-1 text-main-200 items-center gap-2"
           href="/"
@@ -26,7 +26,10 @@ export default function Header() {
     "
             >
               {constHeader.links.map((link, i) => (
-                <li key={link.href} className="w-full flex justify-between gap-2">
+                <li
+                  key={link.href}
+                  className="w-full flex justify-between gap-2"
+                >
                   <Link
                     aria-label={link.label}
                     className={`transition text-nowrap text-main-text-100 hover:text-main-200`}
@@ -34,9 +37,9 @@ export default function Header() {
                   >
                     {link.label}
                   </Link>
-                {i !== constHeader.links.length - 1 && (
-                  <span className="text-black">/</span>
-                )}
+                  {i !== constHeader.links.length - 1 && (
+                    <span className="text-black">/</span>
+                  )}
                 </li>
               ))}
             </ul>
