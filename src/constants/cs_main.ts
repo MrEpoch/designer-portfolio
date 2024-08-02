@@ -1,3 +1,5 @@
+import { ChartNoAxesCombined } from "lucide-react";
+
 export const constCookieBanner = {
   heading: "Používám cookies!",
   para: `Tato webová stránka používá nezbytné soubory cookies k zajištění správného fungování webu. 
@@ -17,7 +19,7 @@ export const constHeader = {
   links: [
     { href: "/", label: "Domov" },
     { href: "/about", label: "O mně" },
-    { href: "/designs", label: "Designy" },
+    { href: "/design", label: "Designy" },
     { href: "/photos", label: "Photografie" },
     { href: "/contact", label: "Kontakt" },
   ],
@@ -27,6 +29,7 @@ export const constHomePage = {
   landing: {},
   gallery: {
     heading: "Galerie",
+    heading2: "Moje",
     para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
     galleryImages: [
       {
@@ -122,7 +125,7 @@ export const constHomePage = {
       plakat: [
         {
           added: new Date(),
-          title: "Webové stránka",
+          title: "Plakát",
           para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
           linkText: "Zjistit viče",
           link: "/design/web-design",
@@ -132,7 +135,7 @@ export const constHomePage = {
       logo: [
         {
           added: new Date(),
-          title: "Webové stránka",
+          title: "Logo design",
           para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
           linkText: "Zjistit viče",
           link: "/design/web-design",
@@ -140,5 +143,37 @@ export const constHomePage = {
         },
       ],
     },
+  },
+};
+
+export const constAboutPage = {
+  landing: {
+    heading: "Pomáhám",
+    para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+    features: [
+      {
+        icon: ChartNoAxesCombined,
+        title: "Lorem",
+        para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+      },
+      {
+        icon: ChartNoAxesCombined,
+        title: "Lorem",
+        para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+      },
+      {
+        icon: ChartNoAxesCombined,
+        title: "Lorem",
+        para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+      },
+    ],
+  },
+};
+
+export const constDesignPage = {
+  landing: {
+    heading: "Moje",
+    heading2: "Designy",
+    para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
   },
 };

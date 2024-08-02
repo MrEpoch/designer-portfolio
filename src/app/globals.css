@@ -69,6 +69,10 @@
     --chart-5: 340 75% 55%;
   }
 
+  .huge-heading {
+    @apply sm:text-9xl text-6xl font-bebas font-medium pb-4 text-gray-900;
+  }
+
   h1 {
     @apply text-2xl font-extrabold tracking-tight text-center leading-none text-gray-900 md:text-4xl lg:text-5xl dark:text-white;
   }
@@ -97,4 +101,54 @@
   scrollbar-width: none;
   -ms-overflow-style: none;
   -webkit-overflow-scrolling: touch;
+}
+
+.loader {
+  --c: no-repeat linear-gradient(orange 0 0);
+  background: var(--c), var(--c), var(--c), var(--c), var(--c), var(--c),
+    var(--c), var(--c), var(--c);
+  background-size: 16px 16px;
+  animation:
+    l32-1 1s infinite,
+    l32-2 1s infinite;
+}
+@keyframes l32-1 {
+  0%,
+  100% {
+    width: 45px;
+    height: 45px;
+  }
+  35%,
+  65% {
+    width: 65px;
+    height: 65px;
+  }
+}
+@keyframes l32-2 {
+  0%,
+  40% {
+    background-position:
+      0 0,
+      0 50%,
+      0 100%,
+      50% 100%,
+      100% 100%,
+      100% 50%,
+      100% 0,
+      50% 0,
+      50% 50%;
+  }
+  60%,
+  100% {
+    background-position:
+      0 50%,
+      0 100%,
+      50% 100%,
+      100% 100%,
+      100% 50%,
+      100% 0,
+      50% 0,
+      0 0,
+      50% 50%;
+  }
 }
