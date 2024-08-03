@@ -1,4 +1,4 @@
-import { ChartNoAxesCombined } from "lucide-react";
+import { ChartNoAxesCombined, Mail, MapPin, Phone } from "lucide-react";
 
 export const constCookieBanner = {
   heading: "Používám cookies!",
@@ -258,6 +258,28 @@ export const constPhotosPage = {
         thumbnailURL: "/assets/InstagramPlakat.png",
         width: 900,
         height: 900,
+      },
+    ],
+  },
+};
+
+export const constContactPage = {
+  landing: {
+    heading: "Písnětě a já vám porádím",
+    pageTitle: "Kontakt",
+    para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis .",
+    contactMethods: [
+      {
+        icon: Mail,
+        content: "mail@example.com",
+      },
+      {
+        icon: Phone,
+        content: "+1 (555) 000-000",
+      },
+      {
+        icon: MapPin,
+        content: "Praha, neznámá 123.",
       },
     ],
   },
