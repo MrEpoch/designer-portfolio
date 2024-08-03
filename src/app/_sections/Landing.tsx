@@ -8,11 +8,11 @@ export default function Landing() {
     <section className="min-h-screen w-full py-8 flex items-center gap-8 md:flex-row flex-col">
       <div className="w-full flex flex-col gap-6">
         <div className="text-center space-y-4">
-          <h1 className={`text-gray-800 font-bold text-4xl md:text-5xl`}>
+          <h1 className={` text-gray-800 font-bold text-5xl md:text-6xl`}>
             <span className={`font-dancing font-extrabold`}>
               Designuju topové posty
             </span>
-            <span className="text-main-200 md:text-4xl text-3xl">
+            <span className="text-main-200 md:text-5xl text-4xl">
               {" "}
               a wireframy
             </span>

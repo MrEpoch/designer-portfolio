@@ -5,9 +5,12 @@ export default function Landing() {
   return (
     <section className="min-h-screen w-full py-14">
       <div className="flex flex-col gap-4">
-        <div className="max-w-xl space-y-3">
+        <div className="w-full space-y-3">
           <h1 className="huge-heading text-start">
-            {constAboutPage.landing.heading}
+            <span className="font-dancing">
+              {constAboutPage.landing.heading2}
+            </span>
+            &nbsp;{constAboutPage.landing.heading}
           </h1>
           <p>{constAboutPage.landing.para}</p>
         </div>

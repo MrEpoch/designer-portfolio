@@ -148,7 +148,8 @@ export const constHomePage = {
 
 export const constAboutPage = {
   landing: {
-    heading: "Pomáhám",
+    heading: "Pomáhám se stylem",
+    heading2: "Já",
     para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
     features: [
       {
@@ -175,5 +176,89 @@ export const constDesignPage = {
     heading: "Moje",
     heading2: "Designy",
     para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+  },
+};
+
+export const constPhotosPage = {
+  landing: {
+    heading: "Moje",
+    heading2: "Photografie",
+    para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+  },
+  gallery: {
+    content: [
+      {
+        largeURL: "/assets/InstagramPlakat.png",
+        thumbnailURL: "/assets/InstagramPlakat.png",
+        width: 900,
+        height: 900,
+      },
+      {
+        largeURL: "/assets/InstagramPlakat.png",
+        thumbnailURL: "/assets/InstagramPlakat.png",
+        width: 900,
+        height: 900,
+      },
+      {
+        largeURL: "/assets/InstagramPlakat.png",
+        thumbnailURL: "/assets/InstagramPlakat.png",
+        width: 900,
+        height: 900,
+      },
+      {
+        largeURL: "/assets/InstagramPlakat.png",
+        thumbnailURL: "/assets/InstagramPlakat.png",
+        width: 900,
+        height: 900,
+      },
+      {
+        largeURL: "/assets/InstagramPlakat.png",
+        thumbnailURL: "/assets/InstagramPlakat.png",
+        width: 900,
+        height: 900,
+      },
+      {
+        largeURL: "/assets/InstagramPlakat.png",
+        thumbnailURL: "/assets/InstagramPlakat.png",
+        width: 900,
+        height: 900,
+      },
+      {
+        largeURL: "/assets/InstagramPlakat.png",
+        thumbnailURL: "/assets/InstagramPlakat.png",
+        width: 900,
+        height: 900,
+      },
+      {
+        largeURL: "/assets/InstagramPlakat.png",
+        thumbnailURL: "/assets/InstagramPlakat.png",
+        width: 900,
+        height: 900,
+      },
+      {
+        largeURL: "/assets/InstagramPlakat.png",
+        thumbnailURL: "/assets/InstagramPlakat.png",
+        width: 900,
+        height: 900,
+      },
+      {
+        largeURL: "/assets/InstagramPlakat.png",
+        thumbnailURL: "/assets/InstagramPlakat.png",
+        width: 900,
+        height: 900,
+      },
+      {
+        largeURL: "/assets/InstagramPlakat.png",
+        thumbnailURL: "/assets/InstagramPlakat.png",
+        width: 900,
+        height: 900,
+      },
+      {
+        largeURL: "/assets/InstagramPlakat.png",
+        thumbnailURL: "/assets/InstagramPlakat.png",
+        width: 900,
+        height: 900,
+      },
+    ],
   },
 };
