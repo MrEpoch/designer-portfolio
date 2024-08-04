@@ -5,31 +5,16 @@ import Scroller from "../_sections/Scroller";
 import Parallax from "@/components/ui/parallax-scroll";
 import Image from "next/image";
 
-const elementList = [
-  <div className="w-full h-screen shadow-lg" key="1">
-    1
-  </div>,
-  <div className="w-full h-screen shadow-lg" key="1">
-    1
-  </div>,
-  <div className="w-full h-screen shadow-lg" key="1">
-    1
-  </div>,
-  <div className="w-full h-screen shadow-lg" key="1">
-    1
-  </div>,
-];
-
 function SliderElement({ sliderContent }: { sliderContent: any }) {
   return (
-    <div className="w-full min-h-screen gap-8 flex shadow-lg md:flex-row flex-col">
-      <div className="flex flex-col gap-4 w-full">
+    <div className="w-full min-h-screen gap-8 flex items-center justify-center shadow-lg lg:flex-row flex-col">
+      <div className="flex h-full items-center flex-1 justify-center flex-col gap-4 w-full">
         <h2 className="huge-heading p-0 m-0 text-start">
           {sliderContent.title}
         </h2>
-        <p>{sliderContent.para}</p>
+        <p className="text-sm text-main-text-100">{sliderContent.para}</p>
       </div>
-      <div className="w-full h-full">
+      <div className="w-full h-full flex-1">
         <Image
           src={sliderContent.image}
           alt="hero"

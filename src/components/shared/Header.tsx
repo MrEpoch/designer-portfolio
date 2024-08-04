@@ -11,9 +11,16 @@ export default function Header() {
     <header className={`p-4 fixed top-6 z-50 right-0 w-full`}>
       <div className="rounded-full shadow-md bg-white max-w-container -main-background-300 w-full py-4 flex items-center">
         <Link
-          className="inline-flex w-fit flex-1 text-main-200 items-center gap-2"
+          className="inline-flex w-fit flex-1 text-main-200 items-center gap-4"
           href="/"
         >
+          <Image
+            src={constHeader.companyLogo}
+            width={60}
+            height={60}
+            className="object-cover w-8 h-8"
+            alt="logo"
+          />
           <span className="sr-only">{constHeader.srMain}</span>
           <span className={`font-bebas text-3xl`}>
             {constHeader.companyName}

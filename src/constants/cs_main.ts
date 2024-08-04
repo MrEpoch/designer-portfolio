@@ -6,7 +6,6 @@ import {
   Mail,
   MapPin,
   Phone,
-  Twitter,
 } from "lucide-react";
 
 export const constCookieBanner = {
