@@ -153,6 +153,18 @@
   }
 }
 
-.scroll-snap-container {
-  scroll-snap-type: y mandatory;
+.custom-shape-divider-top-1722808597 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1722808597 svg {
+  position: relative;
+  display: block;
+  width: calc(136% + 1.3px);
+  height: 196px;
 }
