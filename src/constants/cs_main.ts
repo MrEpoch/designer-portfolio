@@ -1,4 +1,13 @@
-import { ChartNoAxesCombined, Mail, MapPin, Phone } from "lucide-react";
+import {
+  ChartNoAxesCombined,
+  Dribbble,
+  Facebook,
+  Instagram,
+  Mail,
+  MapPin,
+  Phone,
+  Twitter,
+} from "lucide-react";
 
 export const constCookieBanner = {
   heading: "Používám cookies!",
@@ -23,6 +32,77 @@ export const constHeader = {
     { href: "/photos", label: "Photografie" },
     { href: "/contact", label: "Kontakt" },
   ],
+};
+
+export const constFooter = {
+  logo: "/logo.svg",
+  para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+  socialLinks: [
+    {
+      href: "#",
+      icon: Facebook,
+      srText: "Facebook",
+    },
+    {
+      href: "#",
+      icon: Instagram,
+      srText: "Instagram",
+    },
+    {
+      href: "#",
+      icon: Dribbble,
+      srText: "Dribbble",
+    },
+  ],
+  copyrightNotice: "Copyright © 2024 Lukáš Elister. All rights reserved.",
+  photos: {
+    title: "Fotografie",
+    links: [
+      {
+        text: "Hlavní strana",
+        href: "/photos",
+      },
+    ],
+  },
+  designs: {
+    title: "Designy",
+    links: [
+      {
+        text: "Web",
+        href: "/design",
+      },
+      {
+        text: "Plakáty",
+        href: "/design",
+      },
+      {
+        text: "Loga",
+        href: "/design",
+      },
+    ],
+  },
+  contact: {
+    title: "Kontakt",
+    links: [
+      {
+        text: "Kde mě najít",
+        href: "/contact",
+      },
+      {
+        text: "Kontaktní formulář",
+        href: "/contact",
+      },
+    ],
+  },
+  about: {
+    title: "O mně",
+    links: [
+      {
+        text: "Můj příběh",
+        href: "/about#story",
+      },
+    ],
+  },
 };
 
 export const constHomePage = {
@@ -70,79 +150,263 @@ export const constHomePage = {
       },
     ],
   },
-  designs: {
-    tabs: {
-      web: [
-        {
-          added: new Date(),
-          title: "Webové stránka",
-          para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-          linkText: "Zjistit viče",
-          link: "/design/web-design",
-          previewImg: "/assets/InstagramPlakat.png",
+};
+
+export const constDesigns = {
+  tabs: {
+    web: [
+      {
+        infoSlider: {
+          color: "#ffffff",
+          content: [
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+          ],
         },
-        {
-          added: new Date(),
-          title: "Webové stránka",
-          para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-          linkText: "Zjistit viče",
-          link: "/design/web-design",
-          previewImg: "/assets/InstagramPlakat.png",
+        type: "web",
+        id: "f3d6b1c1-9e6b-4b9c-9b1c-1c6b9c9b1c1c",
+        added: new Date(),
+        title: "Webové stránka",
+        para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+        linkText: "Zjistit viče",
+        link: "/design/web-design",
+        previewImg: "/assets/InstagramPlakat.png",
+      },
+      {
+        infoSlider: {
+          color: "#ffffff",
+          content: [
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+          ],
         },
-        {
-          added: new Date(),
-          title: "Webové stránka",
-          para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-          linkText: "Zjistit viče",
-          link: "/design/web-design",
-          previewImg: "/assets/InstagramPlakat.png",
+
+        type: "web",
+        id: "ab1c6b9c-9b1c-6b9c-9b1c-6b9c9b1c6b9c",
+        added: new Date(),
+        title: "Webové stránka",
+        para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+        linkText: "Zjistit viče",
+        link: "/design/web-design",
+        previewImg: "/assets/InstagramPlakat.png",
+      },
+      {
+        infoSlider: {
+          color: "#ffffff",
+          content: [
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+          ],
         },
-        {
-          added: new Date(),
-          title: "Webové stránka",
-          para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-          linkText: "Zjistit viče",
-          link: "/design/web-design",
-          previewImg: "/assets/InstagramPlakat.png",
+
+        type: "web",
+        id: "lab1c6b9c-9b1c-6b9c-9b1c-6b9c9b1c6b9c",
+        added: new Date(),
+        title: "Webové stránka",
+        para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+        linkText: "Zjistit viče",
+        link: "/design/web-design",
+        previewImg: "/assets/InstagramPlakat.png",
+      },
+      {
+        infoSlider: {
+          color: "#ffffff",
+          content: [
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+          ],
         },
-        {
-          added: new Date(),
-          title: "Webové stránka",
-          para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-          linkText: "Zjistit viče",
-          link: "/design/web-design",
-          previewImg: "/assets/InstagramPlakat.png",
+
+        type: "web",
+        id: "lab1c6bgc-9b1c-6b9c-9b1c-6b9c9b1c6b9c",
+        added: new Date(),
+        title: "Webové stránka",
+        para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+        linkText: "Zjistit viče",
+        link: "/design/web-design",
+        previewImg: "/assets/InstagramPlakat.png",
+      },
+      {
+        infoSlider: {
+          color: "#ffffff",
+          content: [
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+          ],
         },
-        {
-          added: new Date(),
-          title: "Webové stránka",
-          para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-          linkText: "Zjistit viče",
-          link: "/design/web-design",
-          previewImg: "/assets/InstagramPlakat.png",
+
+        type: "web",
+        id: "nab1c6bgc-9b1c-6b9c-9b1c-6b9c9b1c6b9c",
+        added: new Date(),
+        title: "Webové stránka",
+        para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+        linkText: "Zjistit viče",
+        link: "/design/web-design",
+        previewImg: "/assets/InstagramPlakat.png",
+      },
+      {
+        infoSlider: {
+          color: "#ffffff",
+          content: [
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+          ],
         },
-      ],
-      plakat: [
-        {
-          added: new Date(),
-          title: "Plakát",
-          para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-          linkText: "Zjistit viče",
-          link: "/design/web-design",
-          previewImg: "/assets/InstagramPlakat.png",
+
+        type: "web",
+        id: "nab2c6bgc-9b1c-6b9c-9b1c-6b9c9b1c6b9c",
+        added: new Date(),
+        title: "Webové stránka",
+        para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+        linkText: "Zjistit viče",
+        link: "/design/web-design",
+        previewImg: "/assets/InstagramPlakat.png",
+      },
+    ],
+    plakat: [
+      {
+        infoSlider: {
+          color: "#ffffff",
+          content: [
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+          ],
         },
-      ],
-      logo: [
-        {
-          added: new Date(),
-          title: "Logo design",
-          para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-          linkText: "Zjistit viče",
-          link: "/design/web-design",
-          previewImg: "/assets/InstagramPlakat.png",
+
+        type: "plakat",
+        id: "nab4c6bgc-9b1c-6b9c-9b1c-6b9c9b1c6b9c",
+        added: new Date(),
+        title: "Plakát",
+        para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+        linkText: "Zjistit viče",
+        link: "/design/web-design",
+        previewImg: "/assets/InstagramPlakat.png",
+      },
+    ],
+    logo: [
+      {
+        infoSlider: {
+          color: "#ffffff",
+          content: [
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+            {
+              image: "/assets/InstagramPlakat.png",
+              title: "Výroba designu",
+              para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. ",
+            },
+          ],
         },
-      ],
-    },
+
+        type: "logo",
+        id: "nab8c6bgc-9b1c-6b9c-9b1c-6b9c9b1c6b9c",
+        added: new Date(),
+        title: "Logo design",
+        para: "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+        linkText: "Zjistit viče",
+        link: "/design/web-design",
+        previewImg: "/assets/InstagramPlakat.png",
+      },
+    ],
   },
 };
 
@@ -265,7 +529,7 @@ export const constPhotosPage = {
 
 export const constContactPage = {
   landing: {
-    heading: "Písnětě a já vám porádím",
+    heading: "Písněte a já vám poradím",
     pageTitle: "Kontakt",
     para: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis .",
     contactMethods: [
@@ -282,5 +546,12 @@ export const constContactPage = {
         content: "Praha, neznámá 123.",
       },
     ],
+  },
+};
+
+export const constDesignIndividualPage = {
+  landing: {
+    heading: "Můj",
+    heading2: "Design",
   },
 };
