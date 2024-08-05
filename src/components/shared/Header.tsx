@@ -11,7 +11,7 @@ export default function Header() {
     <header className={`p-4 fixed top-6 z-50 right-0 w-full`}>
       <div className="rounded-full shadow-md bg-white max-w-container -main-background-300 w-full py-4 flex items-center">
         <Link
-          className="inline-flex w-fit flex-1 text-main-200 items-center gap-4"
+          className="inline-flex w-full sm:w-fit sm:flex-1 text-main-200 items-center gap-4"
           href="/"
         >
           <Image

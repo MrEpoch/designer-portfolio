@@ -53,7 +53,7 @@ export const constFooter = {
       srText: "Dribbble",
     },
   ],
-  copyrightNotice: "Copyright © 2024 Lukáš Elister. All rights reserved.",
+  copyrightNotice: "Copyright © 2024 Lukáš Elister. Všechna práva vyhrazena.",
   photos: {
     title: "Fotografie",
     links: [
@@ -156,7 +156,7 @@ export const constDesigns = {
     web: [
       {
         infoSlider: {
-          color: "#ffffff",
+          color: "#a4ac86",
           content: [
             {
               image: "/assets/InstagramPlakat.png",
@@ -186,7 +186,7 @@ export const constDesigns = {
       },
       {
         infoSlider: {
-          color: "#ffffff",
+          color: "#b8c0ff",
           content: [
             {
               image: "/assets/InstagramPlakat.png",
@@ -217,7 +217,7 @@ export const constDesigns = {
       },
       {
         infoSlider: {
-          color: "#ffffff",
+          color: "#f7a072",
           content: [
             {
               image: "/assets/InstagramPlakat.png",
@@ -248,7 +248,7 @@ export const constDesigns = {
       },
       {
         infoSlider: {
-          color: "#ffffff",
+          color: "#edc4b3",
           content: [
             {
               image: "/assets/InstagramPlakat.png",
@@ -279,7 +279,7 @@ export const constDesigns = {
       },
       {
         infoSlider: {
-          color: "#ffffff",
+          color: "#9bf6ff",
           content: [
             {
               image: "/assets/InstagramPlakat.png",
@@ -310,7 +310,7 @@ export const constDesigns = {
       },
       {
         infoSlider: {
-          color: "#ffffff",
+          color: "#caf0f8",
           content: [
             {
               image: "/assets/InstagramPlakat.png",
@@ -343,7 +343,7 @@ export const constDesigns = {
     plakat: [
       {
         infoSlider: {
-          color: "#ffffff",
+          color: "#e6f777",
           content: [
             {
               image: "/assets/InstagramPlakat.png",
@@ -376,7 +376,7 @@ export const constDesigns = {
     logo: [
       {
         infoSlider: {
-          color: "#ffffff",
+          color: "#e0aaff",
           content: [
             {
               image: "/assets/InstagramPlakat.png",
