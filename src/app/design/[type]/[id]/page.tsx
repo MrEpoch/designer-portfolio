@@ -3,6 +3,7 @@ import { constDesigns } from "@/constants/cs_main";
 import { redirect } from "next/navigation";
 import Scroller from "../_sections/Scroller";
 import Image from "next/image";
+import ShapedDivider from "@/components/ui/shape-divider";
 
 function SliderElement({ sliderContent }: { sliderContent: any }) {
   return (
@@ -55,27 +56,19 @@ export default function page({
         <Scroller designData={designData} />
       </div>
       <div
-        className={`min-h-full flex flex-col gap-16 w-full p-7 rounded-lg`}
+        className={`min-h-full flex flex-col gap-16 w-full p-7`}
         style={{ background: designData.infoSlider.color }}
       >
         {designData.infoSlider.content.map((sliderContent, i) => (
           <SliderElement key={i} sliderContent={sliderContent} />
         ))}
       </div>
-      <div className="w-full relative bg-main-background-100 min-h-[300px]">
-        <div className="custom-shape-divider-top-1722808597">
-          <svg
-            data-name="Layer 1"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1200 120"
-            preserveAspectRatio="none"
-          >
-            <path
-              d="M1200 120L0 16.48 0 0 1200 0 1200 120z"
-              style={{ fill: designData.infoSlider.color }}
-            ></path>
-          </svg>
-        </div>
+      <div className="w-full relative bg-main-background-100 min-h-[200px]">
+        <ShapedDivider
+          currentSection={1}
+          pageLength={3}
+          style={`${designData.infoSlider.color}`}
+        />
       </div>
     </main>
   );

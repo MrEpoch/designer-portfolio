@@ -2,7 +2,7 @@ import React from "react";
 import Processing from "/public/assets/processing.svg";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 
 export default function CTA() {
   return (
@@ -24,8 +24,10 @@ export default function CTA() {
               href="/contact"
               className="group inline-flex gap-2 shadow items-center justify-center text-main-text-300 transition from-main-100 to-main-200 bg-gradient-to-r hover:bg-main-background-200 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900"
             >
-              Kontakt
-              <ArrowRight className="group-hover:translate-x-1 transition mb-[2px] w-5 h-5 " />
+              <span className="group-hover:-translate-x-[1px] transition">
+                Kontakt
+              </span>
+              <ChevronRight className="group-hover:translate-x-[2px] w-5 h-5 transition" />
             </Link>
           </div>
         </div>
