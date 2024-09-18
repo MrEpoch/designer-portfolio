@@ -3,7 +3,6 @@ import { Poppins, Dancing_Script, Bebas_Neue } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/shared/Header";
 import Footer from "@/components/shared/Footer";
-import { Separator } from "@/components/ui/separator";
 
 const dancing_script = Dancing_Script({
   subsets: ["latin"],
